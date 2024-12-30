@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    background-image: url(https://images.pexels.com/photos/2947097/pexels-photo-2947097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+     ;
+     background-repeat: no-repeat;
+     background-position:center;
+     background-size: cover;
+    height: 100vh;
+   position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 65px;
+}
+
+.navbar .logo h2{
+    color: #ff7200;
+    font-size: 25px;
+}
+.navbar .list ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 8px 0px;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.navbar .list ul li:hover{
+    border-bottom: 2px solid #ff7200;
+    cursor: pointer;
+}
+
+.navbar .btn #Regeister{
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+/* main section */
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63px;
+    color: rgba(255, 255, 255, 0.849);
+    
+}
+.contant {
+     width: 25%;
+     
+} 
+.contant h1{
+    font-size: 30px;
+    
+}
+
+.contant p{
+    font-size: 15px;
+    line-height: 1.9em;
+    margin-top: 12px;
+}
+.image{
+    width: 60%;
+}
+.image img{
+    height: 470px;
+    
+}
+
+
+/* icons */
+.icons{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.div1{
+    display: flex;
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 22px 40px;
+    justify-content: space-between;
+}
+.icon1{
+    display: flex;
+    gap: 8px;
+}
+.icon1 small{
+    font-weight: 600;
+}
+
+.icon1 #plane{
+    color: darkblue;
+}
+
+.icon1 #car{
+    color: darkred;
+}
+
+.icon2{
+    display: flex;
+    gap: 10px;
+}
+
+.icon2 small{
+   font-size: 14px;
+   font-weight: 500;
+}
+.icon2  #circle{
+    border: 2px solid darkblue;
+    border-radius: 50%;
+    padding: 4px 6px;
+    color: #ff7200;
+}
+
+.icon2  #dropdown{
+margin-left: 15px;
+}
+.div2{
+    display: flex;
+    background-color: white;
+    width: 900px;
+    padding: 22px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div2 #Search{
+    padding: 8px 15px;
+    background-color: transparent;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+   
+    cursor: pointer;
+
+}
+
+
+/* section */
+
+.section{
+    margin-top: 150px;
+    height: 60vh; 
+     /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* justify-content: space-around; */
+} 
+
+.section .left-side img{
+   width: 530px;
+   height: auto;
+   
+}
+
+.section .right-side{
+    width: 400px;
+    margin-top: 36px;
+    
+}
+
+.section .right-side p{
+    line-height: 1.9em;
+}
+
+.section .right-side #Story{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+
+.countries{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+.boxes .item{
+    height: 475px;
+    flex-basis: 25%;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px 10px 5px 5px;
+}
+
+.boxes .item img{
+    width: 100%;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.rates{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    
+}
+
+.rates h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.rates h4{
+    color: #ff7200;
+    font-size: 17px;
+}
+.rates h4 i{
+    font-size: 14px;
+}
+
+#pra{
+    padding: 7px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9em;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.prices h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.prices button{
+    padding: 8px 25px;
+    background-color: transparent;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+
+/* topic */
+
+.topic{
+    text-align: center;
+}
+
+.topic h1{
+    font-size: 40px;
+}
+
+.topic p{
+    padding: 25px 0px;
+    line-height: 1.8em;
+    color: rgba(0, 0, 0, 0.63);
+}
+.last-part{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bdx{
+    width: 400px;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.bdx h2{
+    font-size: 30px;
+}
+
+.bdx p{
+    line-height: 1.8em;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.mdg img{
+    width: 430px;
+    height:343px ;
+    
+    margin-top: 8px;
+}
+
+.s{
+    padding: 30px 20px;
+}
+
+.bdx button{
+    padding: 8px 25px;
+    background-color: transparent;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 20px;
+}
